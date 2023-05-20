@@ -1,7 +1,7 @@
 import os
 
 def list_root_elements():
-    root_path = '/'
+    root_path = '/root/'
     elements = os.listdir(root_path)
     for element in elements:
         print(element)
